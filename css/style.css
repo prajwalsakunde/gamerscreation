@@ -87,7 +87,7 @@ p {
     border-style: solid;
     position: absolute;
     right: 7%;
-    top: 43%;
+    top: 40%;
     z-index: 1;
 
 }
@@ -249,4 +249,18 @@ p {
 
     }
 
+}
+
+@media (min-width:1550px){
+    #title {
+        text-align: center;
+    }
+    .img1 {
+        width: 30%;
+        box-shadow: 1rem 2rem 1rem #646464;
+        border-radius: 10%;
+        border-style: solid;
+        position: static;
+
+    }
 }

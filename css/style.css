@@ -1,0 +1,252 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* Main heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+/* navbar main css funct */
+.navbar.navbar-expand-lg {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+/* navbar Brand name */
+.navbar-brand {
+    font-family: 'Rubik Vinyl', cursive;
+    text-shadow: 0.7rem 0.5rem 0.7rem #646464;
+    color: #1A120B;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* Title section */
+#title {
+    background-color: #FEFCF3;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 5% 20%;
+}
+
+.btn.btn-outline-light.btn-lg {
+    color: black;
+    border-color: rgba(19, 19, 19, 0.721);
+    box-shadow: 1rem 1rem 1rem #646464;
+}
+
+.btn.btn-dark.btn-lg.download-button {
+    box-shadow: 1rem 1rem 1rem #646464;
+}
+
+.btn.btn-outline-primary {
+    box-shadow: 0.3rem 0.5rem 0.3rem #646464;
+}
+
+.btn.btn-primary {
+    box-shadow: 0.3rem 0.5rem 0.3rem #646464;
+}
+
+.title-heading {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+}
+
+.img1 {
+    width: 37%;
+    box-shadow: 1rem 2rem 1rem #646464;
+    border-radius: 10%;
+    border-style: solid;
+    position: absolute;
+    right: 7%;
+    top: 43%;
+    z-index: 1;
+
+}
+
+.download-button {
+
+    margin: 5% 3% 5% 0%;
+}
+
+/* features section */
+#features {
+    padding: 10% 0%;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+}
+.char-text {
+    font-family: 'Rubik 80s Fade', cursive;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sageimg {
+
+    width: 25%;
+}
+
+.reynaimg {
+    width: 25%;
+}
+
+.chamberimg {
+    width: 25%;
+}
+
+/* Testimonial section */
+#testimonials {
+    padding: 7% 15% 0% 15%;
+    background-color: #f8f0e2;
+}
+
+.testimonial-heading {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.test-discr {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1srem;
+    padding-top: 10%;
+}
+
+
+.platinum-img {
+    width: 15%;
+    line-height: 2;
+    padding-right: 5%;
+
+
+}
+
+.sova-gif {
+    width: 80%;
+    box-shadow: 1rem 2rem 1rem #646464;
+    border-radius: 10%;
+    border-style: solid;
+
+}
+
+.chamber-gif {
+    width: 80%;
+    box-shadow: 1rem 2rem 1rem #646464;
+    border-radius: 10%;
+    border-style: solid;
+}
+
+.fa-solid.fa-chevron-left {
+    padding-right: 20px;
+    color: #000000;
+
+}
+
+.fa-solid.fa-chevron-right {
+    color: #000000;
+    padding-left: 20px;
+
+}
+
+/*  Press  */
+#press {
+    background-color: #f8f0e2;
+    padding-bottom: 5%;
+
+}
+
+.logo {
+    width: 25%;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 7% 7%;
+}
+
+
+.pricing-heading-text {
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.price-text {
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 3.5rem;
+}
+
+.price-display {
+    font-family: 'Prosto One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.copy-right {
+    font-family: 'Prosto One', cursive;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #cbc0ad;
+}
+
+/* footer section */
+
+#footer {
+    line-height: 2;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+/* extra media part */
+@media (max-width:990px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .img1 {
+        width: 100%;
+        box-shadow: 1rem 2rem 1rem #646464;
+        border-radius: 10%;
+        border-style: solid;
+        position: static;
+
+    }
+
+}

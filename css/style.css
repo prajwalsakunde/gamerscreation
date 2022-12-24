@@ -128,6 +128,9 @@ p {
     padding: 7% 15% 0% 15%;
     background-color: #f8f0e2;
 }
+.container-fluid-testimonial{
+    padding: 5% 8%;
+}
 
 .testimonial-heading {
     font-family: 'Comfortaa', cursive;
@@ -152,15 +155,15 @@ p {
 }
 
 .sova-gif {
-    width: 80%;
+    width: 60%;
     box-shadow: 1rem 2rem 1rem #646464;
     border-radius: 10%;
     border-style: solid;
 
 }
 
-.chamber-gif {
-    width: 80%;
+.reyna-gif {
+    width: 60%;
     box-shadow: 1rem 2rem 1rem #646464;
     border-radius: 10%;
     border-style: solid;
@@ -254,6 +257,12 @@ p {
         font-family: 'Montserrat-Black';
         font-weight: bold;
     }
+    .pricing-heading-text {
+        font-family: 'Rubik 80s Fade', cursive;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    
     
 
 }

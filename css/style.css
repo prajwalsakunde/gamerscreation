@@ -248,6 +248,13 @@ p {
         position: static;
 
     }
+    .title-heading {
+        font-size: 2rem;
+        line-height: 1.5;
+        font-family: 'Montserrat-Black';
+        font-weight: bold;
+    }
+    
 
 }
 
